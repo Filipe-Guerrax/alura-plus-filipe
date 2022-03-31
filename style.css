@@ -1,0 +1,165 @@
+:root {
+	--branco-principal:  #FFFFFF;
+	--cinza-secundario:  #C0C0C0;
+	--botao-azul: #167BF7;
+	background-color: #00030C;
+	--fonte-principal: 'Inter';
+}
+
+
+body {
+	background-color: var(--cor-de-fundo);
+	color: var(--branco-principal);
+	font-family: var(--fonte-principal);
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.principal {
+	background-image: url("Background.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	align-items: center;
+	text-align: center;
+}
+
+.container {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.container-botao {
+	background-color: var(--botao-azul);
+	border-radius: 5px;
+	padding: 1em;
+	color: #C0C0C0;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 1em;
+}
+
+
+.botao-secundario {
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+.container-aviso {
+	font-size: 12px;
+	color: gray
+}
+
+
+.container-titulo {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.container-imagem {
+	margin: 1em 0 2em 0;
+}
+
+.container-caixa {
+	margin: 0 4em;
+}
+
+
+.secundario-imagem {
+	width: 80%;
+}
+
+.secundario {
+	align-items: center;
+	margin: 0 10em;
+}
+
+.descricao-titulo {
+	font-weight: 700;
+	font-size: 30px;
+	color: var(white);
+	margin-bottom: 0.2em;
+}
+
+.descricao-texto {
+	color: gray;
+}
+
+
+.secundario-botao {
+	display:inline-block ;
+	margin-top: 1em;
+}
+
+.container-descricao {
+	padding: 1em;
+}
+
+.dispositivos-titulo {
+	text-align: center;
+	margin: 1em 0 2em;
+	font-size: 48px;
+	color: white;
+	
+}
+
+.dispositivos--lista {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	list-style-type: none;
+	
+}
+
+.lista--item {
+	font-size: 32px;
+	color: white;
+	margin: 0 0 2em;
+}
+
+.rodape--logo {
+	margin: 0 0 4em;
+}
+
+.rodape {
+	text-align: center;
+	margin: ;
+}
+
+.rodape--lista{
+	display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista--link a {
+	
+	margin: 0 0 0 2em;
+	color: var(--branco-principal);
+	text-decoration: none;
+}
+.lista--link a:hover {
+	color: #167BF7;
+}
+
+.rodape--texto {
+	margin: 1em 0;
+	color: var(--branco-principal);
+	font-size: 14px;
+
+}
+
+.container-botao:hover {
+	background-color: rgb(5, 138, 23);
+	color: #00030C;
+	
+}
+	
+
